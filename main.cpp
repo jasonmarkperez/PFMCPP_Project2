@@ -104,7 +104,8 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  1)
  */
 
-void playSound(double frequency, int envelope, int patch = 0){ FIXME curly braces go on their own line. See Readme.MD for course coding style
+void playSound(double frequency, int envelope, int patch = 0)
+{
     ignoreUnused(frequency, envelope, patch);
 }
 
@@ -112,7 +113,8 @@ void playSound(double frequency, int envelope, int patch = 0){ FIXME curly brace
  2)
  */
 
-double convertFrequencyToPeriod(double frequency){ FIXME curly braces go on their own line. See Readme.MD for course coding style
+double convertFrequencyToPeriod(double frequency)
+{
     ignoreUnused(frequency);
     return {};
 }
@@ -121,7 +123,8 @@ double convertFrequencyToPeriod(double frequency){ FIXME curly braces go on thei
  3)
  */
 
-void brewCoffee(int numberOfCups, float volumeOfCups, int strength){ FIXME curly braces go on their own line. See Readme.MD for course coding style
+void brewCoffee(int numberOfCups, float volumeOfCups, int strength)
+{
     ignoreUnused(numberOfCups, volumeOfCups, strength);
 }
 
@@ -129,7 +132,8 @@ void brewCoffee(int numberOfCups, float volumeOfCups, int strength){ FIXME curly
  4)
  */
 
-double convertFrequencyToWavelength(double frequency, int accuracy){ FIXME curly braces go on their own line. See Readme.MD for course coding style
+double convertFrequencyToWavelength(double frequency, int accuracy)
+{
     ignoreUnused(frequency, accuracy);
     return {};
 }
@@ -138,7 +142,8 @@ double convertFrequencyToWavelength(double frequency, int accuracy){ FIXME curly
  5)
  */
 
-void playMusic(double idOfSong, bool repeatSong, int volume){ FIXME curly braces go on their own line. See Readme.MD for course coding style
+void playMusic(double idOfSong, bool repeatSong, int volume)
+{
     ignoreUnused(idOfSong, repeatSong, volume);
 }
 
@@ -146,7 +151,8 @@ void playMusic(double idOfSong, bool repeatSong, int volume){ FIXME curly braces
  6)
  */
 
-double deleteTrack(double idOfSong, bool makeNullInCollection){ FIXME curly braces go on their own line. See Readme.MD for course coding style
+double deleteTrack(double idOfSong, bool makeNullInCollection)
+{
     ignoreUnused(idOfSong, makeNullInCollection);
     return {}; //returns id of deleted track
 }
@@ -155,7 +161,8 @@ double deleteTrack(double idOfSong, bool makeNullInCollection){ FIXME curly brac
  7)
  */
 
-bool addToPlaylist(double idOfSong, double idOfPlaylist){ FIXME curly braces go on their own line. See Readme.MD for course coding style
+bool addToPlaylist(double idOfSong, double idOfPlaylist)
+{
     ignoreUnused(idOfSong, idOfPlaylist);
     return {}; //returns success or failure
 }
@@ -164,7 +171,8 @@ bool addToPlaylist(double idOfSong, double idOfPlaylist){ FIXME curly braces go 
  8)
  */
 
-double generateRadioStation(double idOfSeed, int degreeOfRandomness = 0, int lengthOfPlaylist = 10){ FIXME curly braces go on their own line. See Readme.MD for course coding style
+double generateRadioStation(double idOfSeed, int degreeOfRandomness = 0, int lengthOfPlaylist = 10)
+{
     ignoreUnused(idOfSeed, degreeOfRandomness, lengthOfPlaylist);
     return {}; //returns id of radiostation
 }
@@ -173,7 +181,8 @@ double generateRadioStation(double idOfSeed, int degreeOfRandomness = 0, int len
  9)
  */
 
-bool isSongInPlaylist(double idOfSong, double idOfPlaylist){ FIXME curly braces go on their own line. See Readme.MD for course coding style
+bool isSongInPlaylist(double idOfSong, double idOfPlaylist)
+{
     ignoreUnused(idOfSong, idOfPlaylist);
     return {}; // returns bool if song is in playlist
 }
@@ -182,7 +191,8 @@ bool isSongInPlaylist(double idOfSong, double idOfPlaylist){ FIXME curly braces 
  10)
  */
 
-void playNote(char note, int patch, int volume=5){ FIXME curly braces go on their own line. See Readme.MD for course coding style
+void playNote(char note, int patch, int volume=5)
+{
     ignoreUnused(note, patch, volume);
 }
 
