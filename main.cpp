@@ -105,7 +105,7 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
 
 void playSound(double frequency, int envelope, int patch = 0){
-  ignoreUnused(frequency, envelope, patch);
+    ignoreUnused(frequency, envelope, patch);
 }
 
 /*
@@ -113,8 +113,8 @@ void playSound(double frequency, int envelope, int patch = 0){
  */
 
 double convertFrequencyToPeriod(double frequency){
-  ignoreUnused(frequency);
-  return {};
+    ignoreUnused(frequency);
+    return {};
 }
 
 /*
@@ -122,7 +122,7 @@ double convertFrequencyToPeriod(double frequency){
  */
 
 void brewCoffee(int numberOfCups, float volumeOfCups, int strength){
-  ignoreUnused(numberOfCups, volumeOfCups, strength);
+    ignoreUnused(numberOfCups, volumeOfCups, strength);
 }
 
 /*
@@ -130,8 +130,8 @@ void brewCoffee(int numberOfCups, float volumeOfCups, int strength){
  */
 
 double convertFrequencyToWavelength(double frequency, int accuracy){
-  ignoreUnused(frequency, accuracy);
-  return {};
+    ignoreUnused(frequency, accuracy);
+    return {};
 }
 
 /*
@@ -139,7 +139,7 @@ double convertFrequencyToWavelength(double frequency, int accuracy){
  */
 
 void playMusic(double idOfSong, bool repeatSong, int volume){
-  ignoreUnused(idOfSong, repeatSong, volume);
+    ignoreUnused(idOfSong, repeatSong, volume);
 }
 
 /*
@@ -147,8 +147,8 @@ void playMusic(double idOfSong, bool repeatSong, int volume){
  */
 
 double deleteTrack(double idOfSong, bool makeNullInCollection){
-  ignoreUnused(idOfSong, makeNullInCollection);
-  return {}; //returns id of deleted track
+    ignoreUnused(idOfSong, makeNullInCollection);
+    return {}; //returns id of deleted track
 }
 
 /*
@@ -156,8 +156,8 @@ double deleteTrack(double idOfSong, bool makeNullInCollection){
  */
 
 bool addToPlaylist(double idOfSong, double idOfPlaylist){
-  ignoreUnused(idOfSong, idOfPlaylist);
-  return {}; //returns success or failure
+    ignoreUnused(idOfSong, idOfPlaylist);
+    return {}; //returns success or failure
 }
 
 /*
@@ -165,8 +165,8 @@ bool addToPlaylist(double idOfSong, double idOfPlaylist){
  */
 
 double generateRadioStation(double idOfSeed, int degreeOfRandomness = 0, int lengthOfPlaylist = 10){
-  ignoreUnused(idOfSeed, degreeOfRandomness, lengthOfPlaylist);
-  return {}; //returns id of radiostation
+    ignoreUnused(idOfSeed, degreeOfRandomness, lengthOfPlaylist);
+    return {}; //returns id of radiostation
 }
 
 /*
@@ -174,8 +174,8 @@ double generateRadioStation(double idOfSeed, int degreeOfRandomness = 0, int len
  */
 
 bool isSongInPlaylist(double idOfSong, double idOfPlaylist){
-  ignoreUnused(idOfSong, idOfPlaylist);
-  return {}; // returns bool if song is in playlist
+    ignoreUnused(idOfSong, idOfPlaylist);
+    return {}; // returns bool if song is in playlist
 }
 
 /*
@@ -183,7 +183,7 @@ bool isSongInPlaylist(double idOfSong, double idOfPlaylist){
  */
 
 void playNote(char note, int patch, int volume=5){
-  ignoreUnused(note, patch, volume);
+    ignoreUnused(note, patch, volume);
 }
 
 
